@@ -18,3 +18,6 @@ def is_right(a,b,c):
         return True
     else:
         return False
+
+def cos_angle(a, b, c):
+    return (a**2 + b**2 - c**2)/(2*a*b)
